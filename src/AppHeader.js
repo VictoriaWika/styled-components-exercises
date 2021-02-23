@@ -17,3 +17,4 @@ const Header = styled.header`
     ${(props) => (props.isVisible ? '' : 'display: none;')}
   }
 `
+
