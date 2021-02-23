@@ -5,4 +5,9 @@ export default styled.button`
   border: 1px solid black;
   border-radius: 4px;
   padding: 8px;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
 `
