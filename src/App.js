@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Welcome to a set of exercises for styled-components!</h1>
+      <p>
+        Manual: There are a lot of branches with an exercise start and the
+        result. The exercises are building up, I hope they are helpful!
+      </p>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
