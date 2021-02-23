@@ -1,13 +1,17 @@
+import { useState } from 'react'
 import styled from 'styled-components'
 import AppHeader from './AppHeader'
 import Button from './Button'
 
 export default function App() {
+  const [isVisible, setIsVisible] = useState(true)
+
   return (
     <div>
       <AppHeader title={'Hi Hacker!'} subtitle={"How's it going?"} />
-      <Button>Click me!</Button>
+      <Button onClick={() => setIsVisible(!isVisible)}>Button</Button>
       <FilterButton>Filter Button</FilterButton>
+
     </div>
   )
 }
