@@ -1,8 +1,9 @@
 /*
- * Now it would be great to have our title
- * and subtitle in a header component.
+ * Let's add a button component.
  *
- * This should be a styled-component!
+ * A simple button version which we can
+ * converte to another button version in
+ * our app
  *
  * Don't forget to import 'styled-components/macro'!
  */
