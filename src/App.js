@@ -1,6 +1,6 @@
 /*
  * Add 'styled-components' as a dependency
- * '$ npm install styles-components'
+ * '$ npm install styled-components'
  *
  * Add a 'GlobalStyle.js' to your project
  * with your global styles (index.css)
