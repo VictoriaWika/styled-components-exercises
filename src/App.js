@@ -1,13 +1,3 @@
-/*
- * Let's add a button component.
- *
- * A simple button version which we can
- * converte to another button version in
- * our app
- *
- * Don't forget to import 'styled-components/macro'!
- */
-
 import styled from 'styled-components'
 import AppHeader from './AppHeader'
 import Button from './Button'
